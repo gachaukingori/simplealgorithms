@@ -15,7 +15,7 @@ public class Nim{
         System.out.println("Welcome to Nim death match!");
         
         Scanner input = new Scanner(System.in);
-        System.out.println("What difficulty level do you want to playt 1/2?");
+        System.out.println("What difficulty level do you want to playt 1/2? ");
         int level = input.nextInt();
         Game g = new Game(level);
         g.play();
